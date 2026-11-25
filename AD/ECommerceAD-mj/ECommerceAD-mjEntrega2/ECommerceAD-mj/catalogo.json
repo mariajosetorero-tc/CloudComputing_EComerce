@@ -1,0 +1,43 @@
+[ {
+  "id" : 1,
+  "nombre" : "Laptop Pro 15",
+  "precio" : 1200.5,
+  "stock" : 15,
+  "activo" : true
+}, {
+  "id" : 2,
+  "nombre" : "Teclado Mecanico RGB",
+  "precio" : 89.99,
+  "stock" : 45,
+  "activo" : true
+}, {
+  "id" : 3,
+  "nombre" : "Raton Inalambrico Erg",
+  "precio" : 45.0,
+  "stock" : 120,
+  "activo" : true
+}, {
+  "id" : 4,
+  "nombre" : "Monitor 27 Pulgadas 4K",
+  "precio" : 349.9,
+  "stock" : 8,
+  "activo" : true
+}, {
+  "id" : 5,
+  "nombre" : "Auriculares Gaming 7.1",
+  "precio" : 75.5,
+  "stock" : 0,
+  "activo" : true
+}, {
+  "id" : 6,
+  "nombre" : "Silla de Oficina Ergonomica",
+  "precio" : 225.0,
+  "stock" : 5,
+  "activo" : true
+}, {
+  "id" : 7,
+  "nombre" : "Disco SSD 1TB NVMe",
+  "precio" : 99.99,
+  "stock" : 30,
+  "activo" : true
+} ]

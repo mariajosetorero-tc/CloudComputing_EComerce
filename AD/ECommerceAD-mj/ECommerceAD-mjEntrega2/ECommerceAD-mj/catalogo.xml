@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogo>
+    <producto id="1">
+        <nombre>Laptop Pro 15</nombre>
+        <precio>1200.5</precio>
+        <stock>15</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="2">
+        <nombre>Teclado Mecanico RGB</nombre>
+        <precio>89.99</precio>
+        <stock>45</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="3">
+        <nombre>Raton Inalambrico Erg</nombre>
+        <precio>45.0</precio>
+        <stock>120</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="4">
+        <nombre>Monitor 27 Pulgadas 4K</nombre>
+        <precio>349.9</precio>
+        <stock>8</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="5">
+        <nombre>Auriculares Gaming 7.1</nombre>
+        <precio>75.5</precio>
+        <stock>0</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="6">
+        <nombre>Silla de Oficina Ergonomica</nombre>
+        <precio>225.0</precio>
+        <stock>5</stock>
+        <activo>true</activo>
+    </producto>
+    <producto id="7">
+        <nombre>Disco SSD 1TB NVMe</nombre>
+        <precio>99.99</precio>
+        <stock>30</stock>
+        <activo>true</activo>
+    </producto>
+</catalogo>

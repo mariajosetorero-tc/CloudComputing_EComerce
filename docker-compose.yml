@@ -1,0 +1,36 @@
+
+services:
+
+  base_datos:
+    image: mariadb:11.4
+    container_name: ecomarket_db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: admin
+      MARIADB_DATABASE: ecomarket_db
+    ports:
+      - "3307:3306"
+    volumes:
+      - datos_mysql:/var/lib/mysql
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - red_ecommerce
+
+  logistica:
+    build:
+      context: ./PSP/psp-proyecto-majose
+    container_name: logistica_psp
+    stdin_open: true
+    tty: true
+    depends_on:
+      - base_datos
+    networks:
+      - red_ecommerce
+
+volumes:
+  datos_mysql:
+
+networks:
+  red_ecommerce:
+    driver: bridge
+
